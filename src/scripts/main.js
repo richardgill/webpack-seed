@@ -1,6 +1,6 @@
 // This puts a <style> tag in <head> of page with transpiled css.
-require('../styles/main.scss')
+import '../styles/main.scss'
 
-var hello = require('./hello.js')
+import hello from './hello.js'
 
 hello()

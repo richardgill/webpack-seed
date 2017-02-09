@@ -1,4 +1,4 @@
-var hello = function() {
+var hello = () => {
   console.log('Hello World')
 
   //ES6 feature
@@ -11,4 +11,4 @@ var hello = function() {
   throw 'I deliberately threw this exception. Check the line numbers to the right work :)'
 }
 
-module.exports = hello
+export default hello
