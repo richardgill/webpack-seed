@@ -4,7 +4,7 @@ This project has webpack with babel and scss.
 
 ## Commands
 
-Start with `npm install`
+`cd <directory where code is>` Then run `npm install` (which will install everything the project needs).
 
 Then you can do:
 
